@@ -67,7 +67,7 @@ http://github.maxiaoqu.com/vue-selecttree/
 
 4、API说明
 
-https://github.com/maxiaoqu/maxiaoqu/tree/master/vue-selecttree
+https://github.com/maxiaoqu/github/tree/master/api/vue-selecttree
 
 5、Bug反馈
 
