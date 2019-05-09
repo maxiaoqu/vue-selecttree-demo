@@ -10,8 +10,19 @@
                 </vue-selecttree>
             </div>
         </mxqTreerows>
+        <!--基础用法-->
+        <mxqTreerows title="2、在点击节点的时候展开或者收缩节点" message="点击节点展开、收缩">
+            <div slot="tree">
+                <vue-selecttree
+                        :data="data1"
+                        :props="defaultProps1"
+                        @node-click="handleNodeClick1"
+                        :expand-on-click-node="false">
+                </vue-selecttree>
+            </div>
+        </mxqTreerows>
         <!--可选择-->
-        <mxqTreerows title="2、可选择" message="适用于需要选择层级时使用">
+        <mxqTreerows title="3、可选择" message="适用于需要选择层级时使用">
             <div slot="tree">
                 <vue-selecttree
                         :props="props2"
@@ -24,7 +35,7 @@
             </div>
         </mxqTreerows>
         <!--懒加载自定义叶子节点-->
-        <mxqTreerows title="3、懒加载自定义叶子节点" message="懒加载自定义叶子节点">
+        <mxqTreerows title="4、懒加载自定义叶子节点" message="懒加载自定义叶子节点">
             <div slot="tree">
                 <vue-selecttree
                         :props="props3"
@@ -35,7 +46,7 @@
             </div>
         </mxqTreerows>
         <!--默认展开和默认选中-->
-        <mxqTreerows title="4、默认展开和默认选中" message="可将 Tree 的某些节点设置为默认展开或默认选中。">
+        <mxqTreerows title="5、默认展开和默认选中" message="可将 Tree 的某些节点设置为默认展开或默认选中。">
             <div slot="tree">
                 <vue-selecttree
                         :data="data4"
@@ -48,7 +59,7 @@
             </div>
         </mxqTreerows>
         <!--禁用状态-->
-        <mxqTreerows title="5、禁用状态" message="可将 Tree 的某些节点设置为禁用状态。">
+        <mxqTreerows title="6、禁用状态" message="可将 Tree 的某些节点设置为禁用状态。">
             <div slot="tree">
                 <vue-selecttree
                         :data="data5"
@@ -60,7 +71,7 @@
             </div>
         </mxqTreerows>
         <!--树节点的选择-->
-        <mxqTreerows title="6、树节点的选择" message="树节点的选择。">
+        <mxqTreerows title="7、树节点的选择" message="树节点的选择。">
             <div slot="tree">
                 <vue-selecttree
                         :data="data6"
@@ -82,7 +93,7 @@
             </div>
         </mxqTreerows>
         <!--自定义节点内容-->
-        <mxqTreerows title="7.1、自定义节点内容(使用 render-content)" message="节点的内容支持自定义，可以在节点区添加按钮或图标等内容。">
+        <mxqTreerows title="8.1、自定义节点内容(使用 render-content)" message="节点的内容支持自定义，可以在节点区添加按钮或图标等内容。【使用时参考2中的：点击节点展开、收缩，否则会有点击事件冲突】">
             <div slot="tree">
                 <vue-selecttree
                         :data="data71"
@@ -94,7 +105,7 @@
                 </vue-selecttree>
             </div>
         </mxqTreerows>
-        <mxqTreerows title="7.2、自定义节点内容(使用 scoped slot)" message="节点的内容支持自定义，可以在节点区添加按钮或图标等内容。">
+        <mxqTreerows title="9.2、自定义节点内容(使用 scoped slot)" message="节点的内容支持自定义，可以在节点区添加按钮或图标等内容。【使用时参考2中的：点击节点展开、收缩，否则会有点击事件冲突】">
             <div slot="tree">
                 <vue-selecttree
                         :data="data72"
@@ -113,7 +124,7 @@
             </div>
         </mxqTreerows>
         <!--节点过滤-->
-        <mxqTreerows title="8、节点过滤" message="通过关键字过滤树节点。">
+        <mxqTreerows title="10、节点过滤" message="通过关键字过滤树节点。">
             <div slot="tree">
                 <input
                         placeholder="输入关键字进行过滤"
@@ -130,7 +141,7 @@
             </div>
         </mxqTreerows>
         <!--手风琴模式-->
-        <mxqTreerows title="9、手风琴模式" message="对于同一级的节点，每次只能展开一个。">
+        <mxqTreerows title="11、手风琴模式" message="对于同一级的节点，每次只能展开一个。">
             <div slot="tree">
                 <vue-selecttree
                         :data="data9"
@@ -141,7 +152,7 @@
             </div>
         </mxqTreerows>
         <!--可拖拽节点-->
-        <mxqTreerows title="10、可拖拽节点" message="通过 draggable 属性可让节点变为可拖拽。">
+        <mxqTreerows title="12、可拖拽节点" message="通过 draggable 属性可让节点变为可拖拽。">
             <div slot="tree">
                 <vue-selecttree
                         :data="data10"
@@ -159,13 +170,25 @@
                 </vue-selecttree>
             </div>
         </mxqTreerows>
-        <!--其他-->
-        <mxqTreerows title="11、icon图标" message="icon图标">
+        <!--icon图标-->
+        <mxqTreerows title="13、icon图标" message="icon图标">
             <div slot="tree">
                 <vue-selecttree
                         :data="data11"
                         :props="defaultProps11"
                         default-expand-all
+                        @node-click="handleNodeClick11">
+                </vue-selecttree>
+            </div>
+        </mxqTreerows>
+        <!--icon图标-->
+        <mxqTreerows title="14、icon图标,点击节点放在后侧" message="设置expand-show-right为true即可">
+            <div slot="tree">
+                <vue-selecttree
+                        :data="data11"
+                        :props="defaultProps11"
+                        default-expand-all
+                        :expand-show-right="true"
                         @node-click="handleNodeClick11">
                 </vue-selecttree>
             </div>
@@ -177,6 +200,7 @@
     import jsonData from '../assets/treeData.json'
     import mxqTreerows from '../components/treerows';
     import vueSelecttree from 'vue-selecttree';
+    // import vueSelecttree from '../selecttree/tree';
     // 自定义节点内容
     let id = 1000;
     export default {
