@@ -51,9 +51,8 @@
                 <vue-selecttree
                         :data="data4"
                         show-checkbox
-                        node-key="id"
-                        :default-expanded-keys="[2, 3]"
-                        :default-checked-keys="[5]"
+                        node-key="pid"
+                        :default-expanded-keys="[12]"
                         :props="defaultProps4">
                 </vue-selecttree>
             </div>
@@ -199,8 +198,8 @@
 <script>
     import jsonData from '../assets/treeData.json'
     import mxqTreerows from '../components/treerows';
-    import vueSelecttree from 'vue-selecttree';
-    // import vueSelecttree from '../selecttree/tree';
+    // import vueSelecttree from 'vue-selecttree';
+    import vueSelecttree from '../selecttree/tree';
     // 自定义节点内容
     let id = 1000;
     export default {
@@ -430,7 +429,8 @@
         watch: {
             // 节点过滤
             filterText8(val) {
-                this.$refs.tree8.filter(val);
+                // let aa = this.$refs.tree8.filter(val);
+                console.log(val)
             }
         },
     }

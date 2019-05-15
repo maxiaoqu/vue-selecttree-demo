@@ -72,6 +72,7 @@
   "data4": [
     {
       "id": 1,
+      "pid": 12,
       "label": "一级 1",
       "children": [
         {
@@ -92,6 +93,7 @@
     },
     {
       "id": 2,
+      "pid": 12,
       "label": "一级 2",
       "children": [
         {
@@ -106,6 +108,7 @@
     },
     {
       "id": 3,
+      "pid": 13,
       "label": "一级 3",
       "children": [
         {
