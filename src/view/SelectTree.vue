@@ -198,8 +198,7 @@
 <script>
     import jsonData from '../assets/treeData.json'
     import mxqTreerows from '../components/treerows';
-    // import vueSelecttree from 'vue-selecttree';
-    import vueSelecttree from '../selecttree/tree';
+    import vueSelecttree from 'vue-selecttree';
     // 自定义节点内容
     let id = 1000;
     export default {
