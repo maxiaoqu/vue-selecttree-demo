@@ -9,14 +9,10 @@
     <h4>一个很好用的Vue多功能 树组件</h4>
 </h2>
 
-## 案例地址
-http://github.maxiaoqu.com/vue-selecttree
-
-## 插件地址
-https://github.com/maxiaoqu/vue-selecttree
-
-## api文档
-http://blog.maxiaoqu.com/packagesApi
+## 相关链接
+- [案例地址](http://github.maxiaoqu.com/vue-selecttree/)
+- [插件地址](https://github.com/maxiaoqu/vue-selecttree/)
+- [api文档](http://blog.maxiaoqu.com/packagesApi/)
 
 ## 使用方法
 ```vue
