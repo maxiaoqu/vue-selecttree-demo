@@ -8,5 +8,6 @@ module.exports = {
 	baseUrl: './',
     lintOnSave: process.env.NODE_ENV !== 'production',
     filenameHashing: false,
-    productionSourceMap: false
+    productionSourceMap: false,
+
 }
