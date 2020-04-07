@@ -10,9 +10,10 @@
 </h2>
 
 ## 相关链接
+- [gitHub地址](https://github.com/maxiaoqu/vue-selecttree-demo/)
 - [案例地址](http://github.maxiaoqu.com/vue-selecttree/)
 - [api文档](http://blog.maxiaoqu.com/packagesApi/)
-- [插件地址](https://github.com/maxiaoqu/vue-selecttree/)
+- [vue组件地址](https://github.com/maxiaoqu/vue-selecttree/)
 - [npmjs插件](https://www.npmjs.com/package/vue-selecttree/)
 
 ## 使用方法
@@ -61,7 +62,7 @@
 ## 主要维护人员
 |人员|github账号|头像|作者网站|联系邮箱|
 |---|---|---|---|---|
-|杨正炳|[maxiaoqu](https://github.com/maxiaoqu) |  ![](https://avatars1.githubusercontent.com/u/25891598?s=60&v=4)|www.maxiaoqu.com|maxiaoqu@gmail.com
+|码小趣|[maxiaoqu](https://github.com/maxiaoqu) |  ![](https://avatars1.githubusercontent.com/u/25891598?s=60&v=4)|www.maxiaoqu.com|maxiaoqu@gmail.com
 
 ## 安装
 ```
