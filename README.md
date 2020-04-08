@@ -60,9 +60,9 @@
 ```
 
 ## 主要维护人员
-|人员|github账号|头像|作者网站|联系邮箱|
+|人员|github账号|头像|作者博客|作者网站|联系邮箱|
 |---|---|---|---|---|
-|码小趣|[maxiaoqu](https://github.com/maxiaoqu) |  ![](https://avatars1.githubusercontent.com/u/25891598?s=60&v=4)|www.maxiaoqu.com|maxiaoqu@gmail.com
+|码小趣|[maxiaoqu](https://github.com/maxiaoqu) |  ![](https://avatars1.githubusercontent.com/u/25891598?s=60&v=4)|blog.maxiaoqu.com|www.maxiaoqu.com|maxiaoqu@gmail.com
 
 ## 安装
 ```
